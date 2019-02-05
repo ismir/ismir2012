@@ -1,0 +1,119 @@
+
+/* - ploneCustom.css - */
+@media all {
+/* http://ismir2012.ismir.net/portal_css/ploneCustom.css?original=1 */
+#sidebar dd a{
+color: blue;
+text-decoration: none;
+font-size: 100% !important;
+}
+#portal-breadcrumbs {
+border-bottom: 0.8em solid #0099CC;
+width: 305px;
+margin: 0;
+padding: 0;
+}
+#portal-breadcrumbs a {
+text-decoration: none;
+color: #0099CC;
+}
+#portal-breadcrumbs a:hover {
+color: #0099CC;
+}
+#content a, #content a:hover{
+color: #0099CC !important;
+}
+#viewlet-above-content-title {
+padding-top:80px;
+}
+/* */
+h2{
+font-size: 170% !important;
+padding-bottom: 0.6em;
+padding-top: 1.2em;
+}
+h3{
+font-size: 120% !important;
+color: black !important;
+padding-bottom: 0.4em;
+padding-top: 1em;
+}
+dl.portlet dt a:hover {
+color: #0099cc !important;
+}
+.facebook {
+background:black url("../../about/images/c_1.jpg") no-repeat center center;
+height:34px;
+width:38px;
+}
+.facebook:hover {
+background:black url("../../about/images/cr_1.jpg") no-repeat center center;
+height:34px;
+width:38px;
+}
+.rss {
+background:black url("../../about/images/c_2.jpg") no-repeat center center;
+height:34px;
+width:38px;
+}
+.rss:hover {
+background:black url("../../about/images/cr_2.jpg") no-repeat center center;
+height:34px;
+width:38px;
+}
+.twitter {
+background:black url("../../about/images/c_3.jpg") no-repeat center center;
+height:34px;
+width:38px;
+}
+.twitter:hover {
+background:black url("../../about/images/cr_3.jpg") no-repeat center center;
+height:34px;
+width:38px;
+}
+.flickr {
+background:black url("../../about/images/c_4.jpg") no-repeat center center;
+height:34px;
+width:38px;
+}
+.flickr:hover {
+background:black url("../../about/images/cr_4.jpg") no-repeat center center;
+height:34px;
+width:38px;
+}
+.visualHighlight {
+background-color: #FFB;
+}
+#sidebar .portletNews dt {
+font-size: 130%;
+}
+#sidebar .portlet-static-important-dates dt {
+font-size: 130%;
+}
+#sidebar .portlet-static-important-dates dd {
+font-size: 150%;
+}
+#sidebar .portlet-static-important-dates {
+margin-top: 3em !important;
+margin-bottom: 3em !important;
+}
+#sidebar .portlet-static-late-breaks dt {
+font-size: 130%;
+}
+#sidebar .portlet-static-late-breaks dd {
+font-size: 150%;
+}
+#sidebar .portlet-static-late-breaks {
+margin-top: 3em !important;
+margin-bottom: 3em !important;
+}
+.relatedItems {
+margin-top:2em;
+border: 1px solid #0099CC;
+}
+table.listing{
+font-size: 75%;
+}
+/* */
+}
+

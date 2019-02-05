@@ -1,0 +1,119 @@
+
+/* - dropdown-menu.css - */
+@media screen {
+/* http://ismir2012.ismir.net/portal_css/dropdown-menu.css?original=1 */
+/* */
+/* */
+#menu {
+position:relative;
+z-index:3;
+}
+* html #menu {
+height:1%;
+}
+#menu:after {
+content:"";
+clear:both;
+display:block;
+visibility:hidden;
+}
+#menu li {
+float:left;
+margin:0;
+padding:0;
+}
+#menu li a {
+display:block;
+position:relative;
+}
+#menu li a:hover {
+color: #eee;
+}
+ul.submenu {
+position: absolute;
+top:20%;
+width: 148px;
+left:-999em;
+background: transparent; /**/
+margin:0;
+border:0 !important;
+}
+#menu li.selected ul.submenu {
+margin-top:-1px;
+z-index:3;
+}
+#menu ul.submenu li {
+display:block;
+width:100%;
+}
+#menu ul.submenu a{
+margin:0;
+display:block;
+position:static !important;
+white-space:normal;
+padding: 3px 10px 3px 10px;
+font-size: 9px;
+background: transparent;
+color: #fff !important;
+width: 128px;
+}
+#menu ul.submenu a:hover{
+color: #eee !important;
+}
+#menu li.selected ul.submenu a:hover {
+background-color:#09C;
+}
+#menu li.selected ul.submenu a {
+background-color:#09C;
+}
+a.hasDropDown {
+background-image:url('../../arrowRight.gif');
+background-position:14em 50%;
+background-repeat:no-repeat;
+}
+*:first-child+html #menu ul.submenu a {height:1%;} /* */
+* html #menu ul.submenu a {height:1%;} /* */
+/* */
+#menu li ul ul {
+z-index:10;
+top:0.4em;
+left:-999em;
+left:0;
+margin: 0 0 0 14em;
+}
+#menu ul li:hover,
+#menu ul li.sfhover {
+position:relative;
+}
+#menu li:hover ul ul,
+#menu li:hover ul ul ul,
+#menu li:hover ul ul ul ul,
+#menu li.sfhover ul ul,
+#menu li.sfhover ul ul ul,
+#menu li.sfhover ul ul ul ul {
+left:-999em;
+}
+#menu li:hover ul,
+#menu li li:hover ul,
+#menu li li li:hover ul,
+#menu li li li li:hover ul,
+#menu li.sfhover ul,
+#menu li li.sfhover ul,
+#menu li li li.sfhover ul,
+#menu li li li li.sfhover ul {
+left:auto;
+}
+/* */
+#post-sections-clear {
+height:1px;
+margin-bottom:-3px;
+}
+/* */
+*:first-child+html #post-sections-clear {margin-bottom:-2px;}
+* html #post-sections-clear {
+margin-bottom:-2px;
+}
+/* */
+
+}
+

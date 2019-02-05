@@ -1,0 +1,81 @@
+h2{
+    font-size: 120%;
+}
+
+#portal-personaltools{
+    float: right;
+    background: transparent;
+    color: white;
+}
+
+#portal-personaltools a#user-name{
+    color: white;
+}
+
+#portal-personaltools a#personaltools-login{
+    color: white;
+}
+
+#searchGadget {
+   width: 9em;
+}
+
+#breadcrumbs-you-are-here{
+    display:none
+}
+
+#sidebar dl{
+	list-style: none;
+    margin:2px auto;
+    padding:0;
+}
+
+#sidebar dt{
+    background: black;
+    color: white;
+    padding:10px;
+    text-decoration: none;
+    font-size: 90%;
+    text-transform:uppercase;
+}
+
+#sidebar dt a{
+    color: white;
+}
+
+#sidebar dd a{
+    color: blue;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
+    margin:10px 1px;
+    padding: 0;
+}
+
+.portletItemDetails {
+    font-size: 80%;
+    padding-top: .5em;
+    line-height: 1.5em;
+    margin-left: 0;
+    display: block;
+    color: grey;
+}
+
+.relatedItems {
+    margin-top:2em;
+
+}
+
+#portal-colophon {
+   text-align: left;
+   font-size: 100%;
+}
+
+#portal-footer {
+    font-size: 100%;
+    background: transparent !important;
+    padding:0 !important;
+    line-height: 100%;
+}

@@ -1,0 +1,213 @@
+body {
+	background-color: #FFFFFF;
+	margin-top: 10px;
+	background-image: url(images/fundos/f6.jpg);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#all{
+    width: 912px; 
+    margin: 0 auto;
+    background-color: white;
+    padding: 0;
+    overflow: hidden;
+}
+
+#header {
+	height: 150px;
+	padding: 0;
+}
+
+#logo{
+    float: left;
+    color: #FFFFFF;
+    background: black;
+    width: 150px;
+	height: 150px;
+    margin:1px;
+}
+
+#mosaico, #mosaico1, #mosaico2, #mosaico3, #mosaico4{
+    float: left;
+    color: #FFFFFF;
+    background: black;
+    width: 150px;
+	height: 150px;
+    margin:1px;
+}
+
+#login{
+    text-align: right;
+    padding: 10px 10px;
+}
+
+#search{
+    text-align: right;
+    padding: 80px 10px 10px 10px;
+    font-size: 80%
+}
+
+#menu {
+    clear: both;
+	padding: 0;
+}
+
+#menu ul {
+	float: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	background: #FF9933;
+    width: 150px;
+    margin:1px;
+}
+
+#menu a {
+	display: block;
+	margin-left: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+	text-decoration: none;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+    width: 130px;
+    padding: 10px 10px 123px 10px;
+}
+
+#menu a:hover, #menu .selected a {
+	text-decoration: none;
+}
+
+#menu .selected a {
+	background: #0099CC;
+}
+
+#menu .submenu a {
+	font-size: 12px;
+}
+
+#content {
+    float: left;
+    width: 458px;
+    margin:1px;
+    padding:10px 150px 100px 150px;
+    position:relative;
+	font-size: 100%;
+	text-align: justify; 
+}
+
+#migalhas {
+    
+    border-bottom: 0.8em solid #0099CC;
+    width: 305px;
+}
+
+#migalhas a {
+    text-decoration: none;
+    color: #0099CC;
+}
+
+#inside{
+    padding-top:80px;
+}
+
+#sidebar{
+    float: left;
+    width: 150px;
+    margin:1px;
+}
+
+#sidebar h2{
+    background: black;
+    color: white;
+    padding:10px;
+    text-decoration: none;
+    font-size: 90%;
+    text-transform:uppercase;
+}
+
+#sidebar li h2 a{
+    color: white;
+}
+
+#sidebar ul{
+	list-style: none;
+    margin:2px auto;
+    padding:0;
+}
+
+#sidebar li{
+    margin:10px 1px;
+}
+
+#sidebar li a{
+    color: blue;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+#sidebar li .date{
+    display: block;
+    font-size: 80%;
+    color: grey;
+}
+
+#sponsors-container{
+    clear: both;
+    margin: 0 auto;
+}
+
+#sponsors{
+    font-size: 80%;
+    float:left;
+    width: 298px;
+    border-top: 10px solid black;
+    margin:0 3px;
+}
+
+#sponsors h3{
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 150px;
+    padding-left: 5px;
+    margin: 0;
+}
+
+#lowmenu-container{
+    clear: both;
+    margin: 20px auto;
+    width: 660px;
+}
+
+#lowmenu{
+    float:left;
+    width: 110px;
+    font-size: 80%;
+    border-top: 10px solid white;
+    text-align: center;
+}
+
+#lowmenu ul {
+	list-style: none;
+    margin:2px auto;
+    padding:0;
+}
+
+#lowmenu a {
+	color: black;
+    text-decoration: none;
+}
+
+#lowmenu a.title{
+    font-weight: bold;
+    text-transform: uppercase;
+}
